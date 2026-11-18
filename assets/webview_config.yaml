@@ -8,20 +8,20 @@
 # -----------------------------------------------------------------------------
 app:
   # The name of your application as it will appear in the UI.
-  name: "WebSight Demo"
+  name: "Golden Future"
 
   # The primary domain your WebView should treat as first-party.
   # CRITICAL: This MUST match your website's host. Do not include 'https://' or paths.
-  host: "flutter.dev"
+  host: "goldenfutureinvestment.pk"
 
   # The full initial URL to load when the app starts.
-  home_url: "https://flutter.dev/"
+  home_url: "https://goldenfutureinvestment.pk/"
 
   # Android applicationId (reverse-DNS, lowercase).
   # When set, `dart run tool/configure.dart` writes this into
   # android/app/build.gradle.kts (applicationId + namespace) and the manifest
   # provider authority. Leave commented to keep the demo default.
-  # application_id: "com.yourcompany.yourapp"
+  #application_id: "com.goldenfuture.investment"
 
   # AdMob console App ID for this Android app.
   # NOTE: this is the App ID (with a "~"), NOT the Ad Unit IDs (which contain
@@ -136,7 +136,7 @@ routes:
     title: "Flutter Home"
     label: "Home"
     icon: "Icons.home_outlined"
-    url: "https://flutter.dev/"
+    url: "https://goldenfutureinvestment.pk/"
     appbar_visible: true
     pull_to_refresh: true
 
@@ -185,7 +185,7 @@ navigation:
   deep_links:
     enable: true
     hosts:
-      - "flutter.dev"
+      - "goldenfutureinvestment.pk"
 
 webview_settings:
   javascript_enabled: true
@@ -240,7 +240,7 @@ js_bridge:
 security:
   # List of hosts the WebView is allowed to navigate to internally.
   restrict_to_hosts:
-    - "flutter.dev"
+    - "goldenfutureinvestment.pk"
 
 # -----------------------------------------------------------------------------
 # [WEBVIEW PERMISSIONS]
